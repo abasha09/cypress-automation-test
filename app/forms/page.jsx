@@ -53,7 +53,7 @@ export default function FormsPage(){
                 } else if (inputValue.length){
                     setSubMessage(`Successfully subbed: ${inputValue}!`)
                 } else {
-                    setSubMessage('fail!')
+                    setSubMessage('faill!')
                 }
                 setTimeout(() => {
                     setSubMessage('')
