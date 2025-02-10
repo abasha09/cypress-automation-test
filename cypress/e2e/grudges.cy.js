@@ -1,7 +1,7 @@
-it.only('grudges', () => {
+it('grudges', () => {
     cy.contains(/add some grudges/i)
 
-    cy.getDataTest('grudge-list').within(() => {
+    cy.getDataTest('grudge-list-title').within(() => {
         cy.get('li').should('have.length', 0)
     })
 
